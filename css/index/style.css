@@ -1,0 +1,23 @@
+body {
+    background: url(../../img/background1.jpg);
+    font-family: 'Piazzolla', serif;
+    height: 100%;
+}
+
+.margens {
+    padding: 0%;
+}
+
+.cabecalho {
+    display: flex;
+    background: #9cb5c0;
+}
+
+.navegacao {
+    display: flex;
+    border: solid 2px black;
+}
+
+.container {
+    font: 400;
+}
