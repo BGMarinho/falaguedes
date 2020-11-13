@@ -9,21 +9,36 @@
     <link rel="stylesheet" href="./css/index/style.css">
 </head>
 <body>
-    <header class="cabecalho margens">
+    <header class="cabecalho margens-internas">
         <div class="logo">
             <img src="./img/falaguedeslogo.png" alt="falaguedesLogo" title="Fala, Guedes!">
         </div>
-        <div class="navegacao">
-            <div class="sobre">
-                <a href="">Sobre</a>
-            </div>
-            <div class="contato">
-                <a href="">Contato</a>
-            </div>
-        </div>
+        <nav class="navegacao">
+            <a href="">Sobre</a>
+            <a href="">Contato</a>
+        <nav>
     </header>
+    
     <div class="container">
         
     </div>
 </body>
 </html>
+<!-- 
+-> Comandos de início de um novo projeto:
+    - git init -> Cria a pasta oculta .git
+    
+    - git add arquivo.extensão -> Adiciona um arquivo com uma extensão.
+    - git add . -> Adiciona todas os arquivos do diretório.
+    
+    - git commit arquivo.extensão -m "" -> Commita um código. é como se fosse um "save-point" do projeto. A tag " -m "" " é usado para colocar uma mensagem dentro das aspas.
+    - git commit -a -m "" -> Commita todos os arquivos de um diretório.
+
+    - git branch -M master -> Cria uma branch (ramificação) chamada "master". É onde o código-fonte do projeto estará disposto.
+    - git branch -v -> Usado para visualizar as branchs (com informações sobre elas).
+
+    - git remote add origin ENDEREÇO -> Responsável pela sincronização do diretório com o projeto criado no GitHub.
+    - git remote -v -> Usado para visualizar as origens "fetch" e "push".
+    - git remote rm origin -> Usado para remover a origem.
+
+    - git push -u origin master -> Envia os arquivos para a branch master da origem. -->
