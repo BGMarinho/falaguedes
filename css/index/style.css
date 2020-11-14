@@ -1,6 +1,6 @@
 body {
     /* background: url(../../img/background1.jpg); */
-    font-family: 'Piazzolla', serif;
+    font-family: 'Roboto Mono', monospace;
     height: 100%;
     background-color: #2f435b;
 }
@@ -10,10 +10,13 @@ body {
 }
 
 .cabecalho {
+    font-size: 20px;
+    font-weight: 800;
     display: flex;
     justify-content: flex-start;
     background: #9cb5c0;
     width: 100vw;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.8) ;
 }
 
 .navegacao {
@@ -21,14 +24,23 @@ body {
     flex-grow: 2;
     justify-content: space-around;
     align-items: stretch;
-    border: solid 2px black;
+    /* border: solid 2px black; */
 }
 
 .navegacao a {
     flex-grow: 1;
     text-align: center;
-    border: solid 2px green;
+    line-height: 100px;
+    text-transform: uppercase;
     text-decoration: none;
+    color: #2f435b;
+    /* color: rgba(204, 86, 86, 0.8) */
+    /* border: solid 2px green; */
+}
+
+.navegacao a:hover {
+    color: #ffffff;
+    background-color: #2f435b;
 }
 
 .container {
